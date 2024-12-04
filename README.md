@@ -70,8 +70,8 @@ like:
     "firstname": "Veli",
     "lastname": "Ali",
     "username": "veli_ali",
-     "password": "1234",
-    "matchinPassword": "null"
+    "password": "1234",
+    "matchingPassword": "null"
     "email": "veli_ali@example.com"
   }
 ]
@@ -92,7 +92,7 @@ Request Body:
   "lastname": "Veli",
   "username": "ali_veli",
   "password": "1234",
-  "password": "1234",
+  "matchingPassword": "1234",
   "email": "ali_veli@example.com"
 }
 ```
@@ -103,7 +103,7 @@ Response:
   "lastname": "Veli",
   "username": "ali_veli",
   "password": "1234",
-  "matchinPassword": "1234",
+  "matchinPassword": "null",
   "email": "ali_veli@example.com"
 }
 ```
