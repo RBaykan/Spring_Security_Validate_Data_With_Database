@@ -110,13 +110,13 @@ Response:
 Validation Error: If username or email already exists:
 ```json
 {
-  "error": "Username is already exit"
+  "error": "Username already exit"
 }
 ```
 or
 ```json
 {
-  "error": "Username is already exit"
+  "error": "Email already exit"
 }
 ```
 
