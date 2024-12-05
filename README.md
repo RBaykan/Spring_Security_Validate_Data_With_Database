@@ -13,11 +13,11 @@ This project demonstrates a basic implementation of a user management system usi
   - `GET /api/user`: Retrieve a list of all registered users.
   - `POST /api/user`: Register a new user if the username and email are not already in use.
 # Technologies Used 
-Spring Boot
-Spring Security
-Spring Validation
-Hibernate Validator
-Java 21+
+- Spring Boot
+- Spring Security
+- Spring Validation
+- Hibernate Validator
+- Java 21+
 
 ## Project Structure
 
