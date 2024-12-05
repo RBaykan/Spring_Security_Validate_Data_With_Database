@@ -51,7 +51,7 @@ Access the API at http://localhost:8080/api/user.
 ### Get All Users
 **Endpoint:** `GET /api/user`  
 **Description:** Returns a list of all registered users. You can create a new DTO. I am using the userDTO that I created for registration. 
-It will also show the "mathcing password" information but it will be assigned null from the mappe
+It will also show the "mathcing password" information but it will be assigned null from the mapper.
 **Response:**  
 like this:
 ```json
