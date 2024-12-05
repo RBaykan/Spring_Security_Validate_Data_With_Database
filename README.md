@@ -50,7 +50,7 @@ Access the API at http://localhost:8080/api/user.
 
 ### Get All Users
 **Endpoint:** `GET /api/user`  
-**Description:** Returns a list of all registered users. You can create a new DTO, but here I am using the userDTO that I previously created for registration purposes. The 'matching password' information will also be included, but it will be mapped as null by the mapper.
+**Description:** Returns a list of all registered users. You can create a new DTO, but here I am using the userDTO that I previously created for registration purposes. The `matchingPassword` information will also be included, but it will be mapped as `null` by the mapper.
 **Response:**  
 like this:
 ```json
